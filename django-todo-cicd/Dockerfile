@@ -4,7 +4,6 @@ WORKDIR /data
 
 RUN pip install django==3.2
 RUN pip install setuptools
-RUN pip install cgi
 
 COPY . .
 
