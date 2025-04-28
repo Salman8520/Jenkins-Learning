@@ -1,5 +1,5 @@
 version : "3.3"
-services :
+services : 
   web : 
     image : "salman8520/notes-app:latest"
     ports :
