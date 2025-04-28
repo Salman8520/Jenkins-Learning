@@ -2,6 +2,7 @@ FROM python:3
 
 WORKDIR /data
 
+RUN sudo apt -y update
 RUN pip install django==5.2
 RUN pip install setuptools
 
